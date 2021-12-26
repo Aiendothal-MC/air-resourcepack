@@ -5,6 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
     - uses: actions/checkout@master
     - name: Archive Release
       uses: thedoctor0/zip-release@master
@@ -16,6 +19,6 @@ jobs:
       uses: ncipollo/release-action@main
       with:
         commit: main
-        tag: auto
+        tag: ${{ steps.date.outputs.date }}
         artifacts: "release.zip"
         token: ${{ secrets.GH_TOKEN }}
