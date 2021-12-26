@@ -1,8 +1,5 @@
 name: Create Archive
-on:  
-  push:
-    tags:
-      - '*'
+on: [push]
      
 jobs:
   build:
@@ -18,6 +15,7 @@ jobs:
     - name: Upload Release
       uses: ncipollo/release-action@main
       with:
+        commit: ${{ GITHUB_JOB }}
         tag: ${{ GITHUB_JOB }}
         artifacts: "release.zip"
         token: ${{ secrets.GH_TOKEN }}
