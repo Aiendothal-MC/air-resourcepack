@@ -2,8 +2,8 @@ name: Zip Pushes
 
 on:
   push:
-    tags:
-      - 'live'
+  #  tags:
+    #  - 'live'
 
 jobs:
   zip-files:
