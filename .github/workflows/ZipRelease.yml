@@ -10,4 +10,4 @@ jobs:
       with:
         type: 'zip'
         filename: 'Airendothal.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        exclusions: '*.git* /*node_modules/* .editorconfig .github'
