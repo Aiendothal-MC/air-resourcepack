@@ -1,8 +1,9 @@
 name: Create Archive
 on:  
   push:
-    branches:
-      - main
+    inputs:
+      tags:
+        - '*'
      
 jobs:
   build:
