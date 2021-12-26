@@ -24,4 +24,4 @@ jobs:
         commit: main
         tag: ${{ steps.time.outputs.time }}
         artifacts: "Airendothal.zip"
-        token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
