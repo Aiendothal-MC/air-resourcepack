@@ -2,14 +2,22 @@ name: Zip Pushes
 
 on:
   push:
+    tags:
+      - 'live'
 
 jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - uses: papeloto/action-zip@v1
         with:
           files: dist/ manifest.json
           recursive: true
           dest: Airendothal.zip
+      - name: Create a Release
+        uses: elgohr/Github-Release-Action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          args: Auto-Generated
