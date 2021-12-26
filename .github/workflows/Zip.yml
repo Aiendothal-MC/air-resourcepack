@@ -1,8 +1,7 @@
-name: Zip Publish
+name: Zip Pushes
 
 on:
-  release:
-    types: [published]
+  push:
 
 jobs:
   zip-files:
@@ -12,4 +11,5 @@ jobs:
       - uses: papeloto/action-zip@v1
         with:
           files: dist/ manifest.json
+          recursive: true
           dest: Airendothal.zip
