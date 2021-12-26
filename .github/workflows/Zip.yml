@@ -14,5 +14,5 @@ jobs:
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-      artifacts: "airendothal.zip"
-      token: ${{ secrets.GH_TOKEN }}
+        artifacts: "airendothal.zip"
+        token: ${{ secrets.GH_TOKEN }}
