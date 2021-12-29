@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/polished_deepslate_slab" },
+        "type=top": { "model": "block/polished_deepslate_slab_top" },
+        "type=double": [ { "model": "block/oak_tudor0" },{ "model": "block/oak_tudor1" },{ "model": "block/oak_tudor2" },{ "model": "block/oak_tudor3" } ]
+    }
+}
