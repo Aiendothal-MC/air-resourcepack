@@ -22,6 +22,6 @@ jobs:
       uses: ncipollo/release-action@main
       with:
         commit: main
-        tag: ${{ steps.time.outputs.time }}
+        tag: v0.${{ steps.time.outputs.time }}
         artifacts: "Airendothal.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
