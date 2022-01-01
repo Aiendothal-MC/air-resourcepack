@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/birch_tudor3",
+        "side": "block/birch_tudor3"
+    }
+}

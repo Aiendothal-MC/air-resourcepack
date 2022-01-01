@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Get Time
       id: time
-      uses: nanzm/get-time-action@v1.1
+      uses: nanzm/get-time-action@master
       with:
         timeZone: 8
         format: 'YYYYMMDDHHmmss'
@@ -22,6 +22,7 @@ jobs:
       uses: ncipollo/release-action@main
       with:
         commit: main
-        tag: ${{ steps.time.outputs.time }}
+        #tag: ${{ steps.time.outputs.time }} This will output as date
+        tag: v.0.${{ github.run_number }}
         artifacts: "Airendothal.zip"
         token: ${{ secrets.GITHUB_TOKEN }}

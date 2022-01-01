@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "block/dark_prismarine_pillar_side",
+		"end": "block/dark_prismarine_pillar_top"
+	}
+}
