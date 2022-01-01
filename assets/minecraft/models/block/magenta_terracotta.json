@@ -1,7 +1,6 @@
 {
-	"parent": "block/cube_column",
+	"parent": "block/cube_all",
 	"textures": {
-		"side": "block/diorite_cut_side",
-		"end": "block/diorite_cut_top"
+		"all": "block/cracked_diorite_bricks"
 	}
 }
