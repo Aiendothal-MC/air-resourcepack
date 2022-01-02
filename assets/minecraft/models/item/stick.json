@@ -9,6 +9,14 @@
 	{"predicate":{"custom_model_data":3},"model":"custom/cosmetics/thirdperson/baby_yoda_carrier"},
 	{"predicate":{"custom_model_data":4},"model":"custom/cosmetics/star_wars/light_saber"},
 	{"predicate":{"custom_model_data":5},"model":"custom/cosmetics/star_wars/stormtrooper_helmet"},
-	{"predicate":{"custom_model_data":6},"model":"block/dog"}
+	{"predicate":{"custom_model_data":6},"model":"block/dog"},
+	{"predicate":{"custom_model_data":7},"model":"block/blood_hands"},
+	{"predicate":{"custom_model_data":8},"model":"block/tent1_canvas"},
+	{"predicate":{"custom_model_data":9},"model":"custom/magic/summoning_circles/summoning1"},
+	{"predicate":{"custom_model_data":10},"model":"custom/magic/summoning_circles/summoning2"},
+	{"predicate":{"custom_model_data":11},"model":"custom/magic/summoning_circles/summoning3"},
+	{"predicate":{"custom_model_data":12},"model":"custom/magic/summoning_circles/summoning4"},
+	{"predicate":{"custom_model_data":13},"model":"custom/magic/summoning_circles/summoning6"},
+	{"predicate":{"custom_model_data":14},"model":"custom/cosmetics/television_helmet"}
    ]
 }
