@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "block/blackstone_slab" },
-        "type=top": { "model": "block/blackstone_slab_top" },
-        "type=double": [ { "model": "block/jungle_tudor0" },{ "model": "block/jungle_tudor1" },{ "model": "block/jungle_tudor2" },{ "model": "block/jungle_tudor3" } ]
-    }
-}

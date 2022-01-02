@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "block/deepslate_brick_slab" },
-        "type=top": { "model": "block/deepslate_brick_slab_top" },
-        "type=double": [ { "model": "block/spruce_tudor0" },{ "model": "block/spruce_tudor1" },{ "model": "block/spruce_tudor2" },{ "model": "block/spruce_tudor3" } ]
-    }
-}

@@ -1,7 +1,0 @@
-{
-	"parent": "block/cube_column",
-	"textures": {
-		"side": "block/dark_prismarine_cut_side",
-		"end": "block/dark_prismarine_cut_top"
-	}
-}

@@ -1,5 +1,0 @@
-{
-  "variants": {
-    "instrument=harp,powered=false,note=1": { "model": "block/dog" }
-  }
-}

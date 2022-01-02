@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "block/cobbled_deepslate_slab" },
-        "type=top": { "model": "block/cobbled_deepslate_slab_top" },
-        "type=double": [ { "model": "block/crimson_tudor0" },{ "model": "block/crimson_tudor1" },{ "model": "block/crimson_tudor2" },{ "model": "block/crimson_tudor3" } ]
-    }
-}
