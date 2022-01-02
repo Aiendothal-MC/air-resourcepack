@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/deepslate_tile_slab" },
+        "type=top": { "model": "block/deepslate_tile_slab_top" },
+        "type=double": [ { "model": "block/warped_tudor0" },{ "model": "block/warped_tudor1" },{ "model": "block/warped_tudor2" },{ "model": "block/warped_tudor3" } ]
+    }
+}

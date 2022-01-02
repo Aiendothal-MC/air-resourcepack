@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+	{ "predicate": {"custom_model_data": 1}, "model": "item/wandtest"},
+	{"predicate":{"custom_model_data":2},"model":"custom/cosmetics/star_wars/baby_yoda_carrier"},
+	{"predicate":{"custom_model_data":3},"model":"custom/cosmetics/thirdperson/baby_yoda_carrier"},
+	{"predicate":{"custom_model_data":4},"model":"custom/cosmetics/star_wars/light_saber"},
+	{"predicate":{"custom_model_data":5},"model":"custom/cosmetics/star_wars/stormtrooper_helmet"},
+	{"predicate":{"custom_model_data":6},"model":"block/dog"}
+   ]
+}

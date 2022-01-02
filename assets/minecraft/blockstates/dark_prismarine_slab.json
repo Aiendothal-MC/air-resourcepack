@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/dark_prismarine_slab" },
+        "type=top": { "model": "block/dark_prismarine_slab_top" },
+        "type=double": [ { "model": "block/white_tudor0" },{ "model": "block/white_tudor1" },{ "model": "block/white_tudor2" },{ "model": "block/white_tudor3" } ]
+    }
+}

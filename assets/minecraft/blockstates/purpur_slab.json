@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/purpur_slab" },
+        "type=top": { "model": "block/purpur_slab_top" },
+        "type=double": [ { "model": "block/brown_tudor0" },{ "model": "block/brown_tudor1" },{ "model": "block/brown_tudor2" },{ "model": "block/brown_tudor3" } ]
+    }
+}

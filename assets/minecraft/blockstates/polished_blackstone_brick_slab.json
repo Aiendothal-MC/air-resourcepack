@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "block/polished_blackstone_brick_slab" },
+        "type=top": { "model": "block/polished_blackstone_brick_slab_top" },
+        "type=double": [ { "model": "block/charred_tudor0" },{ "model": "block/charred_tudor1" },{ "model": "block/charred_tudor2" },{ "model": "block/charred_tudor3" } ]
+    }
+}

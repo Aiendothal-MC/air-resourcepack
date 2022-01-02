@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "block/white_tudor3",
+        "side": "block/white_tudor3"
+    }
+}
