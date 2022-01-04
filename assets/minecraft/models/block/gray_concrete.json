@@ -1,7 +1,6 @@
 {
-	"parent": "block/cube_column",
+	"parent": "block/cube_all",
 	"textures": {
-		"side": "block/stone_cut_side",
-		"end": "block/stone_cut_top"
+		"all": "block/cracked_gondor_bricks"
 	}
 }

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/detector_rail",
+		"all": "block/detector_rail"
+	},
+	"elements": [
+		{
+			"from": [6.5, -11, 12],
+			"to": [9.5, 14, 12],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [3, 0, 0, 16], "texture": "#all"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#all"}
+			}
+		},
+		{
+			"from": [8, -11, 10.5],
+			"to": [8, 14, 13.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"east": {"uv": [3, 0, 6, 16], "texture": "#all"},
+				"west": {"uv": [6, 0, 3, 16], "texture": "#all"}
+			}
+		}
+	]
+}

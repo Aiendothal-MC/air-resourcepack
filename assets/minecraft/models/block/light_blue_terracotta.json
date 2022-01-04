@@ -1,7 +1,6 @@
 {
-	"parent": "block/cube_column",
+	"parent": "block/cube_all",
 	"textures": {
-		"side": "block/dark_prismarine_cut_side",
-		"end": "block/dark_prismarine_cut_top"
+		"all": "block/cracked_dark_prismarine_bricks"
 	}
 }
