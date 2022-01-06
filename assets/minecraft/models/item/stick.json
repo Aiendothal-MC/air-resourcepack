@@ -17,6 +17,7 @@
 	{"predicate":{"custom_model_data":11},"model":"custom/magic/summoning_circles/summoning3"},
 	{"predicate":{"custom_model_data":12},"model":"custom/magic/summoning_circles/summoning4"},
 	{"predicate":{"custom_model_data":13},"model":"custom/magic/summoning_circles/summoning6"},
-	{"predicate":{"custom_model_data":14},"model":"custom/cosmetics/television_helmet"}
+	{"predicate":{"custom_model_data":14},"model":"custom/cosmetics/television_helmet"},
+	{"predicate":{"custom_model_data":15},"model":"custom/cosmetics/guitar_sword"}
    ]
 }

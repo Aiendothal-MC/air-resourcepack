@@ -1,7 +1,7 @@
 {
 	"parent": "block/cube_column",
 	"textures": {
-		"side": "block/gondor_pillar",
-		"end": "block/gondor_pillar_face"
+		"side": "block/seared_pillar",
+		"end": "block/seared_pillar_top"
 	}
 }

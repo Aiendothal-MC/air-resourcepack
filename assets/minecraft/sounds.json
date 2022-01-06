@@ -1,1 +1,25 @@
-{"soundevent":{"sounds":[]}}
+{  
+"botw": {
+    "category": "ambient",
+    "sounds": [{
+      "name": "botw",
+	  "stream": "false"
+    }]
+  },
+"harvest_dawn": {
+    "category": "ambient",
+    "sounds": [{
+      "name": "harvest_dawn",
+	  "stream": "false"
+    }]
+  },
+"guitar": {
+    "category": "ambient",
+	"sounds":[
+		"play1",
+		"play2",
+		"play3"
+	]
+    }
+  }
+}
