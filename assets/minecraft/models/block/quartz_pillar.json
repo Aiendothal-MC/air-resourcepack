@@ -1,7 +1,71 @@
 {
-	"parent": "block/cube_column",
+    "parent": "block/cube_column",
 	"textures": {
-		"side": "block/gondor_pillar_middle",
-		"end": "block/gondor_pillar_face"
-	}
+		"particle": "block/gondor_pillar_middle",
+		"base": "block/gondor_pillar_middle",
+		"trim": "block/gondor_pillar_top",
+		"trim_bottom": "block/gondor_pillar_bottom",
+		"top": "block/gondor_pillar_face",
+		"bottom": "block/gondor_pillar_face"
+	},
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#bottom",
+                    "cullface": "down"
+                },
+                "north": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#base"
+                },
+                "south": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#base"
+                },
+                "west": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#base"
+                },
+                "east": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#base"
+                }
+            }
+        },
+		{
+            "from": [ -0.01, 10, -0.01 ],
+            "to": [ 16.01, 16, 16.01 ],
+            "faces": {
+				"up": {
+                    "uv": [ 0, 0, 16, 16 ],
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+				"north": {
+                    "uv": [ 0, 0, 16, 6 ],
+                    "texture": "#trim",
+                    "cullface": "up"
+                },
+				"south": {
+                    "uv": [ 0, 0, 16, 6 ],
+                    "texture": "#trim",
+                    "cullface": "up"
+                },
+				"east": {
+                    "uv": [ 0, 0, 16, 6 ],
+                    "texture": "#trim",
+                    "cullface": "up"
+                },
+				"west": {
+                    "uv": [ 0, 0, 16, 6 ],
+                    "texture": "#trim",
+                    "cullface": "up"
+                }
+			}
+		}
+	]
 }
