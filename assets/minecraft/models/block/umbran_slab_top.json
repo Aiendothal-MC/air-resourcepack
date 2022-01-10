@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "minecraft:block/umbran_planks",
+    "top": "minecraft:block/umbran_planks",
+    "side": "minecraft:block/umbran_planks"
+  }
+}

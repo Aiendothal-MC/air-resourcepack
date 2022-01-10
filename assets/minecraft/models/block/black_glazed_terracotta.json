@@ -1,0 +1,46 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_column",
+	"textures": {
+		"particle": "block/gondor_pillar_middle",
+		"base": "block/gondor_pillar_middle",
+		"trim": "block/gondor_pillar_top",
+		"trim_bottom": "block/gondor_pillar_bottom",
+		"top": "block/gondor_pillar_face"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#base"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#base"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#base"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#base"}
+			}
+		},
+		{
+			"from": [-0.01, 9, -0.01],
+			"to": [16.01, 16, 16.01],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 6], "texture": "#trim", "cullface": "up"},
+				"east": {"uv": [0, 0, 16, 7], "texture": "#trim", "cullface": "up"},
+				"south": {"uv": [0, 0, 16, 7], "texture": "#trim", "cullface": "up"},
+				"west": {"uv": [0, 0, 16, 7], "texture": "#trim", "cullface": "up"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"from": [-0.01, 0, -0.01],
+			"to": [16.01, 6, 16.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 11], "texture": "#trim_bottom", "cullface": "down"},
+				"east": {"uv": [0, 16, 16, 11], "texture": "#trim_bottom", "cullface": "down"},
+				"south": {"uv": [0, 16, 16, 11], "texture": "#trim_bottom", "cullface": "down"},
+				"west": {"uv": [0, 16, 16, 11], "texture": "#trim_bottom", "cullface": "down"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#top", "cullface": "down"}
+			}
+		}
+	]
+}

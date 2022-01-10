@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/ethereal_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/thisisblankfornoreason"
+    },
+    "type=top": {
+      "model": "minecraft:block/ethereal_slab_top"
+    }
+  }
+}
