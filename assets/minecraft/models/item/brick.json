@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/brick"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/inventory/belt"},
+		{"predicate": {"custom_model_data":2}, "model": "item/inventory/necklace"},
+		{"predicate": {"custom_model_data":3}, "model": "item/inventory/ring"},
+		{"predicate": {"custom_model_data":4}, "model": "item/inventory/shield"},
+		{"predicate": {"custom_model_data":5}, "model": "item/inventory/weapon"}
+	]
+}

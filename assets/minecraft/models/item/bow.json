@@ -1,8 +1,8 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "item/bow"
-    },
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/bow"
+	},
     "display": {
         "thirdperson_righthand": {
             "rotation": [ -80, 260, -40 ],
@@ -25,14 +25,79 @@
             "scale": [ 0.68, 0.68, 0.68 ]
         }
     },
-    "overrides": [
-        {"predicate": { "custom_model_data": 0, "pulling": 1}, "model": "item/bow_pulling_0"},
-        {"predicate": { "custom_model_data": 0, "pulling": 1, "pull": 0.65}, "model": "item/bow_pulling_1"},
-        {"predicate": { "custom_model_data": 0, "pulling": 1, "pull": 0.9}, "model": "item/bow_pulling_2"},
-
-        {"predicate": { "custom_model_data": 1, "pulling": 0}, "model": "item/adventurer_bow"},
-        {"predicate": { "custom_model_data": 1, "pulling": 1}, "model": "item/adventurer_bow_pulling_0"},
-        {"predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.65}, "model": "item/adventurer_bow_pulling_1"},
-        {"predicate": { "custom_model_data": 1, "pulling": 1, "pull": 0.9}, "model": "item/adventurer_bow_pulling_2"}
-    ]
+	"overrides": [
+		{
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/bow_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "item/bow_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/bow_pulling_2"
+        },
+		
+		{"predicate": {"custom_model_data":1}, "model": "item/weapons/bow/bow_1"},
+		{"predicate": {"pulling": 1, "custom_model_data":1}, "model": "item/weapons/bow/bow_1_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":1}, "model": "item/weapons/bow/bow_1_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":1}, "model": "item/weapons/bow/bow_1_pulling_2"},
+		
+		{"predicate": {"custom_model_data":3}, "model": "item/weapons/bow/woodb"},
+		{"predicate": {"pulling": 1, "custom_model_data":3}, "model": "item/weapons/bow/woodb_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":3}, "model": "item/weapons/bow/woodb_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":3}, "model": "item/weapons/bow/woodb_pulling_2"},
+		
+		{"predicate": {"custom_model_data":5}, "model": "item/weapons/bow/hawk"},
+		{"predicate": {"pulling": 1, "custom_model_data":5}, "model": "item/weapons/bow/hawk_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":5}, "model": "item/weapons/bow/hawk_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":5}, "model": "item/weapons/bow/hawk_pulling_2"},
+		
+		{"predicate": {"custom_model_data":7}, "model": "item/weapons/bow/nature"},
+		{"predicate": {"pulling": 1, "custom_model_data":7}, "model": "item/weapons/bow/nature_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":7}, "model": "item/weapons/bow/nature_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":7}, "model": "item/weapons/bow/nature_pulling_2"},
+		
+		{"predicate": {"custom_model_data":9}, "model": "item/weapons/bow/leafb"},
+		{"predicate": {"pulling": 1, "custom_model_data":9}, "model": "item/weapons/bow/leafb_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":9}, "model": "item/weapons/bow/leafb_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":9}, "model": "item/weapons/bow/leafb_pulling_2"},
+		{"predicate": {"custom_model_data":10}, "model": "item/weapons/bow/leafbglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":10}, "model": "item/weapons/bow/leafb_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":10}, "model": "item/weapons/bow/leafb_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":10}, "model": "item/weapons/bow/leafb_pulling_2"},
+		
+		{"predicate": {"custom_model_data":11}, "model": "item/weapons/bow/epic_green"},
+		{"predicate": {"pulling": 1, "custom_model_data":11}, "model": "item/weapons/bow/epic_green_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":11}, "model": "item/weapons/bow/epic_green_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":11}, "model": "item/weapons/bow/epic_green_pulling_2"},
+		{"predicate": {"custom_model_data":12}, "model": "item/weapons/bow/epic_greenglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":12}, "model": "item/weapons/bow/epic_green_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":12}, "model": "item/weapons/bow/epic_green_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":12}, "model": "item/weapons/bow/epic_green_pulling_2"},
+		
+		{"predicate": {"custom_model_data":13}, "model": "item/weapons/bow/arcade"},
+		{"predicate": {"pulling": 1, "custom_model_data":13}, "model": "item/weapons/bow/arcade_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":13}, "model": "item/weapons/bow/arcade_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":13}, "model": "item/weapons/bow/arcade_pulling_2"},
+		{"predicate": {"custom_model_data":14}, "model": "item/weapons/bow/arcadeglow"},
+		{"predicate": {"pulling": 1, "custom_model_data":14}, "model": "item/weapons/bow/arcade_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":14}, "model": "item/weapons/bow/arcade_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":14}, "model": "item/weapons/bow/arcade_pulling_2"},
+		
+		
+		{"predicate": {"custom_model_data":100}, "model": "item/weapons/bow/piratepistol"},
+		{"predicate": {"pulling": 1, "custom_model_data":100}, "model": "item/weapons/bow/piratepistol"},
+		{"predicate": {"pulling": 1, "pull": 0.65, "custom_model_data":100}, "model": "item/weapons/bow/piratepistol"},
+		{"predicate": {"pulling": 1, "pull": 0.9, "custom_model_data":100}, "model": "item/weapons/bow/piratepistol"}
+	]
 }

@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/wetools"
+        "layer0": "item/inventory/necklace"
     }
 }
