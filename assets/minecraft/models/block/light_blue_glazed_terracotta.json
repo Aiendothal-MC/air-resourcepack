@@ -1,7 +1,7 @@
 {
 	"parent": "block/cube_column",
 	"textures": {
-		"side": "block/diorite_pillar_side",
-		"end": "block/diorite_pillar_top"
+		"side": "block/red_sandstone_pillar",
+		"end": "block/red_sandstone_pillar_top"
 	}
 }
